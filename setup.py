@@ -11,7 +11,7 @@ setup(
     license="GPLv2+",
     packages=["asgimqtt"],
     install_requires=[
-        "paho-mqtt",
+        "paho-mqtt==1.3.0",
     ],
     entry_points={
         "console_scripts": [
